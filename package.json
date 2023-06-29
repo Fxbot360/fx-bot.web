@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "serve": "next start",
+    "serve": "next --openssl-legacy-provider start",
     "export": "next export",
     "postbuild": "next-sitemap"
   },

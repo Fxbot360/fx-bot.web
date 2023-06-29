@@ -59,7 +59,7 @@ const Banner = () => {
         />
 
         <Image sx={styles.logo} src={logoImage} alt="logo image" />
-        <Heading as="h2">Create beautiful landing page in few minutes</Heading>
+        <Heading as="h2">Automate your trading with ease...</Heading>
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
     </Box>

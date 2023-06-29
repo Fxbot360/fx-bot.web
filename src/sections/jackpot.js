@@ -9,14 +9,14 @@ const JACKPOT_DATA = [
   {
     image: jackpotImage1,
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managments your blood tests.',
+      'Smart automation of trade with 24/5 scalping strategy...',
     heading: 'Smart Features',
   },
   {
     image: jackpotImage2,
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managments your blood tests.',
-    heading: 'Secure Contents',
+      'Never loss trades again, one-Time payment, Life-time Robot ',
+    heading: 'Trade Security ',
   },
 ];
 
@@ -31,7 +31,7 @@ const Jackpot = () => {
           <Box sx={styles.content}>
             <Box sx={styles.heading}>
               <Text as="span">Core features</Text>
-              <Heading as="h3">Smart Jackpots that you may love this</Heading>
+              <Heading as="h3">AI trading Robot with great results...</Heading>
             </Box>
             <Box sx={styles.jackpotCardBox}>
               {JACKPOT_DATA.map(({ image, heading, text }, index) => (
