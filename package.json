@@ -4,14 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "serve": "next --openssl-legacy-provider start",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "serve": "next start",
     "export": "next export",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
     "framer-motion": "^2.7.5",
-    "next": "9.5.3",
+    "next": "^9.5.3",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.6.2",
     "prettier": "^2.1.2",
