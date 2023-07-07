@@ -20,15 +20,15 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 014" />
+          <SEO title="Fxbot360" />
           <Banner />
           <Services />
           <Jackpot />
           <CallToAction />
           <Featured />
           <Pricing />
-          <Testimonials />
-          <Blogs />
+          {/* <Testimonials /> */}
+          {/* <Blogs /> */}
           <FAQ />
           <Subscribe />
         </Layout>

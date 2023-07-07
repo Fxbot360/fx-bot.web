@@ -10,15 +10,13 @@ const CallToAction = () => {
       <Container>
         <Flex sx={styles.flex}>
           <Box sx={styles.content}>
-            <Text as="span">Behind the design</Text>
+            <Text as="span">Behind the our technology..</Text>
             <Heading as="h3">
-              Code that we used to built the website with integrating apps
+              Fxbot360 tech-stack & technology
             </Heading>
             <Text as="p">
-              Get your tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever. Get your tests delivered at let home collect
-              sample.
+              Get your best automated trading Bot delivered to you on 
+              Mt4 and Mt5 trading technologies
             </Text>
             <Link path="#" sx={styles.button}>
               Explore More
@@ -69,7 +67,7 @@ const styles = {
     },
     p: {
       color: '#02073E',
-      fontSize: ['16px', null, null, '18px'],
+      fontSize: ['16px', null, null, '20px'],
       lineHeight: ['2', null, null, 2.33],
       mb: '30px',
     },

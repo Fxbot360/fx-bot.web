@@ -13,42 +13,42 @@ const SERVICES_DATA = [
   {
     image: serviceImage1,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: '3D modeling & art',
+      'Take a closer look at everything you’ll need to know about forex, including what it is, how you trade it and how leverage in forex works.',
+    heading: 'How it works',
     path: '#',
   },
   {
     image: serviceImage2,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Digital promotion',
+      'Our tools and platforms have clear and simple instructions and are intuitively easy to navigate.',
+    heading: 'Trading Robot tools',
     path: '#',
   },
   {
     image: serviceImage3,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Business Enterprise',
+      'fxbot makes it easy for anyone to start trading, understand risk, and make better trading decisions.',
+    heading: 'Customer-first trading experience',
     path: '#',
   },
   {
     image: serviceImage4,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Marketing & advertising',
+      'Online trading is exciting but involves risks and can lead to an addiction.',
+    heading: 'Market measures',
     path: '#',
   },
   {
     image: serviceImage5,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Ultimate development',
+      'we enforce best-in-class security measures such as to protect your account and personal data.',
+    heading: 'Security measures',
     path: '#',
   },
   {
     image: serviceImage6,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
+      'The fxbot360 support team is available via live chat 24/7 – even on weekends.',
     heading: 'Online support',
     path: '#',
   },

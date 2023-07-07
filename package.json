@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build",
-    "serve": "next start",
+    "serve": "SET NODE_OPTIONS=--openssl-legacy-provider && next start",
     "export": "next export",
     "postbuild": "next-sitemap"
   },

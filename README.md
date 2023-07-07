@@ -5,8 +5,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
+#How to run project....
+
+`use gitbash to run command below`
 
 export NODE_OPTIONS=--openssl-legacy-provider
+
+then: npm run dev
+
+
 
 npm run dev
 # or
