@@ -11,7 +11,7 @@ First, run the development server:
 
 export NODE_OPTIONS=--openssl-legacy-provider
 
-then: npm run dev
+then: `npm run dev`
 
 
 

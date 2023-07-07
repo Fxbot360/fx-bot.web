@@ -9,59 +9,59 @@ import priceIcon2 from 'assets/price-user-1-2.svg';
 const PRICE_MONTHLY_DATA = [
   {
     recommended: null,
-    title: 'For Team pack',
+    title: 'Personal pack',
     icon: priceIcon1,
-    amount: '29.99/mo',
+    amount: '#200K',
     options: [
       {
         status: true,
-        label: 'Ultimate access to all course, exercises and assessments',
+        label: 'Ultimate access to all installation guide',
       },
       {
         status: true,
         label:
-          'Free access for all kind of exercise corrections with downloads.',
+          'Free access to our support team 24/5',
       },
       {
         status: true,
-        label: 'Total assessment corrections with free download access system',
+        label: 'Version upgradable at a little cost',
       },
       {
         status: false,
-        label: 'Unlimited download of courses on the mobile app contents',
+        label: 'access to our online trading guide / courses',
       },
       {
         status: false,
-        label: 'Download and print courses and exercises in PDF',
+        label: 'Download and print installation guide PDF',
       },
     ],
   },
   {
     recommended: 'Recommended',
-    title: 'For Organization pack',
+    title: 'For Peer pack',
     icon: priceIcon2,
-    amount: '49.99/mo',
+    amount: '#500k',
     options: [
       {
         status: true,
-        label: 'Ultimate access to all course, exercises and assessments',
+        label: 'Ultimate access to all course material',
       },
       {
         status: true,
         label:
-          'Free access for all kind of exercise corrections with downloads.',
+          'Free access for to our support team all day.',
       },
       {
         status: true,
-        label: 'Total assessment corrections with free download access system',
+        label: 'Version upgradable at small cost',
       },
       {
         status: true,
-        label: 'Unlimited download of courses on the mobile app contents',
+        label: 'Unlimited access to our online courses and materials',
       },
       {
         status: true,
-        label: 'Download and print courses and exercises in PDF',
+        label: 'Download and print installation guide PDF',
       },
     ],
   },
@@ -72,28 +72,28 @@ const PRICE_YEARLY_DATA = [
     recommended: null,
     title: 'For Team pack',
     icon: priceIcon1,
-    amount: '99.99/yr',
+    amount: '#900k',
     options: [
       {
         status: true,
-        label: 'Ultimate access to all course, exercises and assessments',
+        label: 'Ultimate access to all installation guide',
       },
       {
         status: true,
         label:
-          'Free access for all kind of exercise corrections with downloads.',
+          'Free access to our support team 24/5',
       },
       {
         status: true,
-        label: 'Total assessment corrections with free download access system',
+        label: 'Version upgradable at a little cost',
       },
       {
         status: false,
-        label: 'Unlimited download of courses on the mobile app contents',
+        label: 'access to our online trading guide / courses',
       },
       {
         status: false,
-        label: 'Download and print courses and exercises in PDF',
+        label: 'Download and print installation guide PDF',
       },
     ],
   },
@@ -101,28 +101,28 @@ const PRICE_YEARLY_DATA = [
     recommended: 'Recommended',
     title: 'For Organization pack',
     icon: priceIcon2,
-    amount: '199.99/yr',
+    amount: '#1.5m',
     options: [
       {
         status: true,
-        label: 'Ultimate access to all course, exercises and assessments',
+        label: 'Special Trading seminar / monthly consutations',
       },
       {
         status: true,
         label:
-          'Free access for all kind of exercise corrections with downloads.',
+          'Free access for our support team anytime.',
       },
       {
         status: true,
-        label: 'Total assessment corrections with free download access system',
+        label: 'Version upgradable at no cost',
       },
       {
         status: true,
-        label: 'Unlimited download of courses on the mobile app contents',
+        label: 'Unlimited access to our online courses and materials',
       },
       {
         status: true,
-        label: 'Download and print courses and exercises in PDF',
+        label: 'Free Technical staff training program.',
       },
     ],
   },
@@ -130,7 +130,7 @@ const PRICE_YEARLY_DATA = [
 
 const Pricing = () => {
   const [plan, setPlan] = useState({
-    active: 'monthly',
+    active: 'One-off',
     pricingPlan: PRICE_MONTHLY_DATA,
   });
 
