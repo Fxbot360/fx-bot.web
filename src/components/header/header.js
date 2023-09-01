@@ -34,7 +34,7 @@ export default function Header({ className }) {
 
           <Link
             path="/"
-            href="https://wa.me/+2347017779058"
+            href="https://wa.me/+2348163505720"
             target="_blank"
             rel="noopener noreferrer"
             ml={2}

@@ -10,6 +10,7 @@ First, run the development server:
 `use gitbash to run command below`
 
 export NODE_OPTIONS=--openssl-legacy-provider
+# export NODE_OPTIONS=--openssl-legacy-provider && next build
 
 then: `npm run dev`
 
