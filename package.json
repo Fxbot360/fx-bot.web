@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "serve": "next start",
-    "export": "next export",
+    "export": "next build && next export",
     "postbuild": "next-sitemap"
   },
   "dependencies": {

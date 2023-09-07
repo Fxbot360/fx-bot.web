@@ -12,7 +12,7 @@ First, run the development server:
 export NODE_OPTIONS=--openssl-legacy-provider
 # export NODE_OPTIONS=--openssl-legacy-provider && next build
 
-then: `npm run dev`
+        then: `npm run dev`
 
 
 
