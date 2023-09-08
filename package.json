@@ -2,6 +2,9 @@
   "name": "@landing/014-next",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +13,6 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "caniuse-lite": "^1.0.30001528",
     "framer-motion": "^2.7.5",
     "next": "^9.5.3",
     "next-compose-plugins": "^2.2.0",
